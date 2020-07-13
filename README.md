@@ -1,6 +1,6 @@
 # Flip a Coin!
 
-Can't make a decision? Choose heads or tails and let the coin decide for you.
+Can't make a decision? Choose heads or tails and let the coin decide for you. [Click here!](https://flip-a-coin-to-decide.firebaseapp.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
