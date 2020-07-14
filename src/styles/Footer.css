@@ -8,6 +8,9 @@
 .hyperlink {
   color: #14080e;
 }
+.hyperlink:hover {
+  color: #d64045;
+}
 /*
 English Vermilion Red - D64045
 

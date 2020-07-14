@@ -1,8 +1,9 @@
 .CoinFlip {
   background-color: #fff866;
-  color: #d64045;
   padding: 25px;
   margin: 0px 5px 0px 5px;
+  border-top: 3px solid #fc9e4f;
+  border-bottom: 3px solid #fc9e4f;
 }
 .button {
   font-family: monospace;
@@ -19,16 +20,22 @@
   display: inline-block;
   padding: 6px 10px;
   letter-spacing: 1px;
-  box-shadow: -3px 3px 0 #dcd6f7;
+  /* box-shadow: -3px 3px 0 #dcd6f7 0.1; */
+  box-shadow: 5px -5px 5px rgba(220, 214, 247, 1);
   text-decoration: none;
+}
+.button:hover {
+  color: #d64045;
 }
 .coinFlipResult {
   font-size: 100px;
   background-color: #0c6291;
   margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
   color: #dcd6f7;
+  align-content: center;
+  box-shadow: 5px -5px 5px rgba(220, 214, 247, 1);
 }
 /*
 English Vermilion Red - D64045
