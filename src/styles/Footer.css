@@ -1,5 +1,6 @@
 .Footer {
-  background-color: #018e42;
+  /* background-color: #018e42; */
+  background: linear-gradient(325deg, #018e42, #01c85d);
   color: #14080e;
   padding: 5px;
   margin: 0px 5px 5px 5px;

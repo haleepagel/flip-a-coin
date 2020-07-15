@@ -1,9 +1,11 @@
 .CoinFlip {
-  background-color: #fff866;
+  /* background-color: #fff866; */
+  background: linear-gradient(180deg, #fff866, #fc9e4f);
+
   padding: 25px;
   margin: 0px 5px 0px 5px;
   border-top: 3px solid #fc9e4f;
-  border-bottom: 3px solid #fc9e4f;
+  border-bottom: 3px solid #fff866;
 }
 .button {
   font-family: monospace;
