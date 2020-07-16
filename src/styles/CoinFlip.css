@@ -18,8 +18,9 @@
   top: 0;
   left: 0;
   transition: all 0.15s linear 0s;
-  position: relative;
-  display: inline-block;
+  /* position: relative; */
+  /* display: inline-block; */
+  margin: auto;
   padding: 6px 10px;
   letter-spacing: 1px;
   /* box-shadow: -3px 3px 0 #dcd6f7 0.1; */
@@ -28,6 +29,9 @@
 }
 .button:hover {
   color: #d64045;
+  transform: scale(1.1);
+  /* transform: skewX(-10deg); */ /* makes element go diagonally */
+  /* background-color: #d64045; */
 }
 .coinFlipResult {
   font-size: 100px;

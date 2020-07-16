@@ -1,5 +1,26 @@
 body {
-  background-color: #dcd6f7;
+  /* background-color: #dcd6f7; */
+  animation-name: colorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+}
+@keyframes colorPalette {
+  0% {
+    background-color: #dcd6f7;
+  }
+  25% {
+    background-color: #eae6fa;
+  }
+  50% {
+    background-color: #f8f7fd;
+  }
+  75% {
+    background-color: #eae6fa;
+  }
+  100% {
+    background-color: #dcd6f7;
+  }
 }
 .App {
   text-align: center;
@@ -19,7 +40,7 @@ body {
 
 .App-header {
   /* background-color: #018e42; */
-  background: linear-gradient(35deg, #018e42, #01c85d);
+  background: linear-gradient(-20deg, #018e42, #01c85d);
   min-height: 10vh;
   display: flex;
   flex-direction: column;

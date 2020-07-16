@@ -1,9 +1,17 @@
 .Footer {
   /* background-color: #018e42; */
-  background: linear-gradient(325deg, #018e42, #01c85d);
+  /* background: linear-gradient(325deg, #018e42, #01c85d); */
+  background: repeating-linear-gradient(
+    0deg,
+    #018e42 0px,
+    #01c85d 10px,
+    #01c85d 10px,
+    #018e42 20px
+  );
   color: #14080e;
   padding: 5px;
   margin: 0px 5px 5px 5px;
+  font-weight: bold;
 }
 
 .hyperlink {
